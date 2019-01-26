@@ -1,0 +1,23 @@
+.blog_chart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.blog_heading {
+    font-size: 30px;
+}
+
+.blog_images {
+    width: 100%;
+}
+
+.card-body {
+    font-size: 20px;
+}
+
+.card-subtext {
+    font-size: 15px;
+    padding-left: 20px;
+}

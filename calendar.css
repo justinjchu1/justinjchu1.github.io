@@ -1,15 +1,47 @@
-.table {
+.activity_recommendations {
   width: 100%;
-  max-width: 100%;
-  margin-bottom: 20px;
 }
 
-.profile_picture {
-  width: 90px;
-  height: 142px;
+.activity_title {
+  color: black;
 }
 
 .cover_photo {
   width: 300px;
   height: 142px;
 }
+
+.friends_calendars {
+  font-size: 20px;
+}
+
+.jumbotron {
+  background-image: url(Starry\ Night.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.profile_name {
+  color: white;
+  font-size: 30px;
+}
+
+.profile_picture {
+  height: 142px;
+}
+
+.section_headers {
+  font-size: 20px;
+  font-weight: bold; 
+}
+
+.table {
+  table-layout: fixed;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+
+

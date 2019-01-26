@@ -5,12 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Justin's Website</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="calendar.css">
 </head>
-
 <body>
+
+<!--navbar code-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Justin</a>
+      <a class="navbar-brand" href="index.html">Justin</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -47,28 +50,37 @@
             </div>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        <ul class="navbar-nav right">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Search <i class="fas fa-search"></i></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Profile <i class="fas fa-user"></i></a>
+                </li>
+        </ul>
         </div>
       </nav>
 
-      <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
-              <img class="profile_picture" src="DU Photo 3.jpg">
-              </div>
-            <div class="col-sm-9">
-              <img class="cover_photo" src="Starry Night.jpg"> 
-              </div>
-          </div>
+<!--jumbotron code-->
+<div class="container-fluid">
+    <div class="jumbotron">
+        <img class="profile_picture" src="Oski.jpg">
+        <h1 class="profile_name">Oski Bear</h1>
+       </div>
+  </div>
+
+<!--body code-->
+      <div class="container-fluid">
         <div class="row">
           <div class="col-sm-3">
-            <a>Intro</a>
+            <a class="section_headers">Intro:</a>
+            <p>Hometown: Berkeley, CA</p>
+            <p>Birthdate: September 27</p>
+            <p>Favorite Location: San Francisco, CA</p>
             </div>
           <div class="col-sm-9 table-responsive">
-            <table class="table">
+            <a class="section_headers">Your Calendar:</a>
+            <table class="table table-success">
               <thead>
                 <tr>
                   <th scope="col">Day 1</th>
@@ -80,11 +92,11 @@
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">Tennis @ 4pm</th>
-                  <td>Ultimate Frisbee @ 1pm</td>
-                  <td>Basketball @ 3pm</td>
+                  <th scope="row">Choreography Practice @ 2pm</th>
+                  <td>Workout @ 8am</td>
+                  <td>Basketball Game vs. USC @ 3pm</td>
                   <td>Brian's Birthday Party @ 7pm</td>
-                  <td>Club Meeting @ 11am</td>
+                  <td>Football Game vs. Stanfurd @ 12pm</td>
                   </tr>
                 </tbody>
               </table>
@@ -92,10 +104,62 @@
           </div>
         <div class="row">
           <div class="col-sm-3">
-            <a>Activity Recommendation</a>
+            <a class="section_headers">Activity Recommendations:</a>
+            <img class="activity_recommendations" src="Willis Skydeck.jpg">
+            <a class="activity_title" href="https://theskydeck.com/">Willis Tower Skydeck</a>
+            <hr class="my-4">
+            <img class="activity_recommendations" src="Cindy's.jpg">
+            <a class="activity_title" href="http://www.cindysrooftop.com/">Cindy's</a>
+            <hr class="my-4">
+            <img class="activity_recommendations" src="Art Institute.jpg">
+            <a class="activity_title" href="https://www.artic.edu/">Art Institute</a>
             </div>
+            
           <div class="col-sm-9">
-            <a>Friend's Calendars</a>
+            <a class="section_headers">Friend's Calendars:</a>
+            <p class="friends_calendars">Justin's Calendar</p> 
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Day 1</th>
+                    <th scope="col">Day 2</th>
+                    <th scope="col">Day 3</th>
+                    <th scope="col">Day 4</th>
+                    <th scope="col">Day 5</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Tennis @ 4pm</th>
+                    <td>Ultimate Frisbee @ 1pm</td>
+                    <td>Basketball @ 3pm</td>
+                    <td>Brian's Birthday Party @ 7pm</td>
+                    <td>Club Meeting @ 11am</td>
+                    </tr>
+                  </tbody>
+                </table>
+              <hr class="my-4">
+            <p class="friends_calendars">Benjamin's Calendar</p> 
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Day 1</th>
+                    <th scope="col">Day 2</th>
+                    <th scope="col">Day 3</th>
+                    <th scope="col">Day 4</th>
+                    <th scope="col">Day 5</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Running @ 8am</th>
+                    <td>Ultimate Frisbee @ 1pm</td>
+                    <td>Basketball @ 3pm</td>
+                    <td>Brian's Birthday Party @ 7pm</td>
+                    <td>Grocery Shopping @ 2pm</td>
+                    </tr>
+                  </tbody>
+                </table>
             </div>
         </div>
       </div>
