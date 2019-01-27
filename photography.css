@@ -1,25 +1,25 @@
-  body {
-    font-family: 'Open Sans', sans-serif;
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotron {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.photo_albums {
+  width: 100%;
   }
   
-  .jumbotron {
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .justin_projects {
-    width: 100%;
-    }
-    
-  .project_commentary {
-    color: black;
-    font-size: 16px;
-  }
-  
-  .project_header {
-    color: black;
-    font-size: 30px;
-  }
-  
+.project_commentary {
+  color: black;
+  font-size: 16px;
+}
+
+.project_header {
+  color: black;
+  font-size: 30px;
+}
+
